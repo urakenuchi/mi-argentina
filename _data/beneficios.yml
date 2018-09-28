@@ -1,0 +1,18 @@
+- title: Autenticación
+  url: /doc/beneficios/autenticacion
+  highlighted: true
+
+- title: OpenID Connect
+  url: /doc/beneficios/openid-connect
+
+- title: Identidad Federada
+  url: /doc/beneficios/identidad-federada
+
+- title: Login Social
+  url: /doc/beneficios/login-social
+
+# - title: Validación de Identidad
+#   url: /doc/beneficios/validacion-identidad
+
+# - title: Perfil Ciudadano
+#   url: /doc/beneficios/perfil-ciudadano

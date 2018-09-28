@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+{% include head.html %}
+<body data-spy="scroll" data-target="#navbar-docs">
+
+  {% include header.html %}
+  <main id="docs" role="main">
+    <section id="docs">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <aside class="page-sidebar">
+              {% include nav_beneficios.html %}
+            </aside>
+          </div>
+          <div class="col-md-8 docs-container">
+            <h1 class="m-t-0">{{ page.title }}</h1>
+            <hr class="m-t-0 m-b-3">
+
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <script src="{{ "/node_modules/jquery/dist/jquery.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/node_modules/bootstrap/dist/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+  <!-- <script src="{{ "/node_modules/prismjs/prism.js" | prepend: site.baseurl }}"></script> -->
+
+</body>
+</html>

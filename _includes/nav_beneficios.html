@@ -1,0 +1,30 @@
+<nav class="p-r-4">
+  <ul class="nav nav-pills nav-stacked">
+
+    {% for element in site.data.beneficios %}
+
+      {% unless element.hr == true %}
+
+        {% assign current = nil %}
+        {% if page.url == element.url %}
+          {% assign current = 'active' %}
+        {% endif %}
+
+        {% assign highlighted = nil %}
+        {% if element.highlighted %}
+          {% assign highlighted = 'btn-title' %}
+        {% endif %}
+
+        <li class="{{ current }} {{ highlighted }}">
+          <a href="{{ element.url | prepend: site.baseurl }}">{{ element.title }}</a>
+        </li>
+
+      {% else %}
+
+        <hr>
+
+      {% endunless %}
+    {% endfor %}
+
+  </ul>
+</nav>

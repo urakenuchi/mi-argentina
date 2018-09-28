@@ -1,0 +1,15 @@
+- title: Inicio
+  url: /
+  highlighted: true
+
+- title: Beneficios
+  url: /doc/beneficios/autenticacion.html
+
+- title: Desarrolladores
+  url: /doc/desarrolladores/inicio.html
+
+- title: Solicitud
+  url: /doc/solicitud.html
+
+- title: Contacto
+  url: /doc/contacto.html
