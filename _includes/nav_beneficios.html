@@ -5,17 +5,14 @@
 
       {% unless element.hr == true %}
 
-        {% assign current = nil %}
-        {% if page.url == element.url %}
+        {% assign current = '' %}
+
+        {% if page.title == element.title %}
           {% assign current = 'active' %}
         {% endif %}
 
-        {% assign highlighted = nil %}
-        {% if element.highlighted %}
-          {% assign highlighted = 'btn-title' %}
-        {% endif %}
 
-        <li class="{{ current }} {{ highlighted }}">
+        <li class="{{ current }}">
           <a href="{{ element.url | prepend: site.baseurl }}">{{ element.title }}</a>
         </li>
 

@@ -3,6 +3,7 @@
 {% include head.html %}
 <body data-spy="scroll" data-target="#navbar-docs">
 
+  {% assign beneficios_active = "active" %}
   {% include header.html %}
   <main id="docs" role="main">
     <section id="docs">
@@ -16,7 +17,6 @@
           <div class="col-md-8 docs-container">
             <h1 class="m-t-0">{{ page.title }}</h1>
             <hr class="m-t-0 m-b-3">
-
             {{ content }}
           </div>
         </div>

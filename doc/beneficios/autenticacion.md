@@ -1,6 +1,7 @@
 ---
 layout: beneficios
 title: Autenticación
+autenticacion_active: active
 ---
 
 #### Permite implementar autenticación de usuarios en cuestión de minutos.

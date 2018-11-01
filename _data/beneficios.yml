@@ -1,6 +1,5 @@
 - title: Autenticación
   url: /doc/beneficios/autenticacion
-  highlighted: true
 
 - title: OpenID Connect
   url: /doc/beneficios/openid-connect
