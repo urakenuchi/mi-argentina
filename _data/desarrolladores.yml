@@ -1,5 +1,8 @@
 - title: Vista general
-  url: /doc/desarrolladores/inicio
+  url: /doc/desarrolladores/vista-general
 
 - title: Flujos
   url: /doc/desarrolladores/flujos
+
+- title: Tecnologías
+  url: /doc/desarrolladores/tecnologias
