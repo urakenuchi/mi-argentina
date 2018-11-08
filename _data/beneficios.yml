@@ -7,8 +7,8 @@
 - title: Seguridad
   url: /doc/beneficios/seguridad
 
-- title: Identidad Federada
-  url: /doc/beneficios/identidad-federada
+- title: Single Sign On (SSO)
+  url: /doc/beneficios/single-sign-on
 
 - title: Login Social
   url: /doc/beneficios/login-social
